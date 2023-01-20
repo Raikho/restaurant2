@@ -18,7 +18,6 @@ body {
 
 .container.header {
     /* background-image: url("../dist/vintage_paper.jpg"); */
-    background-image: url("./assets/samosa_platter.jpg");
     background-position: bottom;
     background-size: cover;
 
@@ -44,7 +43,7 @@ body {
 /* ================================================================= */
 
 .container.main {
-    /* background-image: url("../dist/samosa_platter.jpg"); */
+    background-image: url("../dist/samosa_platter.jpg");
     background-position: center center;
     background-size: cover;
 
