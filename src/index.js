@@ -1,7 +1,7 @@
 import './style.css';
 import getHomeContent from './home.js';
 import getMenuContent from './menu.js';
-// import getContactContent from './contact.js';
+import getContactContent from './contact.js';
 
 
 const tabs = {
@@ -43,14 +43,9 @@ function addContent(tab) {
 
 tabs.home.content = getHomeContent();
 tabs.menu.content = getMenuContent();
-// tabs.contact.content = getContactContent();
+tabs.contact.content = getContactContent();
 
 
 // INIT
 clearContent();
 addContent(tabs.home);
-
-// DEBUG
-console.log(tabs);
-console.log(content);
-console.log(tabs.home.content);
