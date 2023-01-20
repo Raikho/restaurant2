@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    background-color: darkslategray;\\n    color: #1f2937;\\n    font-family: Cambria;\\n    font-size: 20px;\\n    font-weight: 700;\\n\\n    width: 100vw;\\n    height: 100vh;\\n    margin: 0 0;\\n\\n    display: grid;\\n    grid-template-rows: 2fr 27fr 1fr;\\n}\\n\\n/* ============================== Top ============================== */\\n/* ================================================================= */\\n\\n.container.header {\\n    /* background-image: url(\\\"../dist/vintage_paper.jpg\\\"); */\\n    background-position: bottom;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 20px;\\n}\\n\\n.container.header>.tab {\\n    width: 80px;\\n    padding: 5px;\\n    border: 2px solid #0c4a6e;\\n    border-radius: 5px;\\n    text-align: center;\\n}\\n\\n.tab[data-selected=\\\"true\\\"] {background-color: goldenrod;}\\n.tab[data-selected=\\\"false\\\"]:hover {background-color:  #ffffff33;}\\n.tab:active {backdrop-filter: brightness(1.25);}\\n\\n/* ============================== Main ============================= */\\n/* ================================================================= */\\n\\n.container.main {\\n    /* background-image: url(\\\"../dist/samosa_platter.jpg\\\"); */\\n    background-position: center center;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n.content.main {\\n    width: 500px;\\n    height: 700px;\\n    overflow-y: scroll;\\n\\n    background-color: #ccc3;\\n    border-radius: 15px;\\n    box-shadow: 4px 4px 8px #0003;;\\n\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: start;\\n    align-items: center;\\n    padding: 20px;\\n    gap: 20px;\\n}\\n\\n::-webkit-scrollbar {width: 20px;}\\n::-webkit-scrollbar-track {background-color: transparent;}\\n::-webkit-scrollbar-thumb {\\n    background-color: #fff6;\\n    border-radius: 20px;\\n    border: 7px solid transparent;\\n    background-clip: content-box;\\n}\\n\\n.card {\\n    background-color: #ccc6;\\n    padding: 20px;\\n    width: 240px;\\n    text-align: center;\\n\\n    border-radius: 15px;\\n    box-shadow: 4px 4px 8px #0003;;\\n}\\n\\n.item {\\n    display: grid;\\n    grid-template-columns: 1fr 3fr;\\n    grid-template-rows: 1fr, 2fr, 4fr;\\n    grid-template-areas:\\n        \\\"itemName itemName\\\"\\n        \\\"desc desc\\\"\\n        \\\"price pic\\\";\\n    gap: 10px;\\n    text-align: left;\\n}\\n.item>.itemName {\\n    grid-area: itemName;\\n    font-size: 32px;\\n}\\n.item>.desc {\\n    grid-area: desc;\\n    font-size: 18px;\\n}\\n.item>.price {grid-area: price;}\\n.item>.pic {\\n    grid-area: pic;\\n    justify-self: end;\\n    width: 150px;\\n    height: 100px;\\n    background-position: center;\\n    background-size: cover;\\n    border-radius: 8px;\\n    box-shadow: 4px 4px 4px #0003;\\n}\\n\\n.contact {\\n    text-align: left;\\n\\n    display: grid;\\n    grid-template-columns: 1fr 1fr;\\n    grid-template-rows: 2fr 1fr 1fr 1fr;\\n    grid-template-areas:\\n        \\\"contactName contactPicture\\\"\\n        \\\"contactPosition contactPicture\\\"\\n        \\\"contactNumber contactNumber\\\"\\n        \\\"contactEmail contactEmail\\\";\\n}\\n.contact>.contactName {grid-area: contactName;}\\n.contact>.contactPosition {grid-area: contactPosition; font-size: 16px;}\\n.contact>.contactNumber {grid-area: contactNumber; font-size: 16px;}\\n.contact>.contactEmail {grid-area: contactEmail; font-size: 16px;}\\n.contact>.contactPicture {\\n    grid-area: contactPicture;\\n    justify-self: end;\\n    width: 80px;\\n    height: 80px;\\n    /* background-image: url(\\\"../src/assets/managerProfile.png\\\"); */\\n    background-position: center;\\n    background-size: cover;\\n    border-radius: 80px;\\n    box-shadow: 4px 4px 4px #0003;\\n\\n}\\n\\n.title {\\n    width: 360px;\\n    font-family: georgia;\\n    font-size: 48px;\\n    font-weight: 1000;\\n}\\n\\n.subtitle {\\n    width: 240px;\\n    font-family: georgia;\\n    font-size: 32px;\\n    font-weight: 700;\\n}\\n\\n.smaller {font-size: 18px}\\n\\n.heading {\\n    font-size: 32px;\\n    text-align: left;\\n}\\n\\nli {list-style: none;}\\n/* ============================= Footer ============================ */\\n/* ================================================================= */\\n\\n.container.footer {\\n    /* background-image: url(\\\"../dist/vintage_paper.jpg\\\"); */\\n    background-position: top;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: space-between;\\n    align-items: center;\\n\\n    padding: 0 20px;\\n}\\na {\\n    color: black;\\n    font-size: 12px;\\n    font-weight: 400;\\n    text-decoration: none;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant2/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/samosa_platter.jpg */ \"./src/assets/samosa_platter.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"body {\\n    background-color: darkslategray;\\n    color: #1f2937;\\n    font-family: Cambria;\\n    font-size: 20px;\\n    font-weight: 700;\\n\\n    width: 100vw;\\n    height: 100vh;\\n    margin: 0 0;\\n\\n    display: grid;\\n    grid-template-rows: 2fr 27fr 1fr;\\n}\\n\\n/* ============================== Top ============================== */\\n/* ================================================================= */\\n\\n.container.header {\\n    /* background-image: url(\\\"../dist/vintage_paper.jpg\\\"); */\\n    background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n    background-position: bottom;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n    gap: 20px;\\n}\\n\\n.container.header>.tab {\\n    width: 80px;\\n    padding: 5px;\\n    border: 2px solid #0c4a6e;\\n    border-radius: 5px;\\n    text-align: center;\\n}\\n\\n.tab[data-selected=\\\"true\\\"] {background-color: goldenrod;}\\n.tab[data-selected=\\\"false\\\"]:hover {background-color:  #ffffff33;}\\n.tab:active {backdrop-filter: brightness(1.25);}\\n\\n/* ============================== Main ============================= */\\n/* ================================================================= */\\n\\n.container.main {\\n    /* background-image: url(\\\"../dist/samosa_platter.jpg\\\"); */\\n    background-position: center center;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n}\\n\\n.content.main {\\n    width: 500px;\\n    height: 700px;\\n    overflow-y: scroll;\\n\\n    background-color: #ccc3;\\n    border-radius: 15px;\\n    box-shadow: 4px 4px 8px #0003;;\\n\\n    display: flex;\\n    flex-direction: column;\\n    justify-content: start;\\n    align-items: center;\\n    padding: 20px;\\n    gap: 20px;\\n}\\n\\n::-webkit-scrollbar {width: 20px;}\\n::-webkit-scrollbar-track {background-color: transparent;}\\n::-webkit-scrollbar-thumb {\\n    background-color: #fff6;\\n    border-radius: 20px;\\n    border: 7px solid transparent;\\n    background-clip: content-box;\\n}\\n\\n.card {\\n    background-color: #ccc6;\\n    padding: 20px;\\n    width: 240px;\\n    text-align: center;\\n\\n    border-radius: 15px;\\n    box-shadow: 4px 4px 8px #0003;;\\n}\\n\\n.item {\\n    display: grid;\\n    grid-template-columns: 1fr 3fr;\\n    grid-template-rows: 1fr, 2fr, 4fr;\\n    grid-template-areas:\\n        \\\"itemName itemName\\\"\\n        \\\"desc desc\\\"\\n        \\\"price pic\\\";\\n    gap: 10px;\\n    text-align: left;\\n}\\n.item>.itemName {\\n    grid-area: itemName;\\n    font-size: 32px;\\n}\\n.item>.desc {\\n    grid-area: desc;\\n    font-size: 18px;\\n}\\n.item>.price {grid-area: price;}\\n.item>.pic {\\n    grid-area: pic;\\n    justify-self: end;\\n    width: 150px;\\n    height: 100px;\\n    background-position: center;\\n    background-size: cover;\\n    border-radius: 8px;\\n    box-shadow: 4px 4px 4px #0003;\\n}\\n\\n.contact {\\n    text-align: left;\\n\\n    display: grid;\\n    grid-template-columns: 1fr 1fr;\\n    grid-template-rows: 2fr 1fr 1fr 1fr;\\n    grid-template-areas:\\n        \\\"contactName contactPicture\\\"\\n        \\\"contactPosition contactPicture\\\"\\n        \\\"contactNumber contactNumber\\\"\\n        \\\"contactEmail contactEmail\\\";\\n}\\n.contact>.contactName {grid-area: contactName;}\\n.contact>.contactPosition {grid-area: contactPosition; font-size: 16px;}\\n.contact>.contactNumber {grid-area: contactNumber; font-size: 16px;}\\n.contact>.contactEmail {grid-area: contactEmail; font-size: 16px;}\\n.contact>.contactPicture {\\n    grid-area: contactPicture;\\n    justify-self: end;\\n    width: 80px;\\n    height: 80px;\\n    /* background-image: url(\\\"../src/assets/managerProfile.png\\\"); */\\n    background-position: center;\\n    background-size: cover;\\n    border-radius: 80px;\\n    box-shadow: 4px 4px 4px #0003;\\n\\n}\\n\\n.title {\\n    width: 360px;\\n    font-family: georgia;\\n    font-size: 48px;\\n    font-weight: 1000;\\n}\\n\\n.subtitle {\\n    width: 240px;\\n    font-family: georgia;\\n    font-size: 32px;\\n    font-weight: 700;\\n}\\n\\n.smaller {font-size: 18px}\\n\\n.heading {\\n    font-size: 32px;\\n    text-align: left;\\n}\\n\\nli {list-style: none;}\\n/* ============================= Footer ============================ */\\n/* ================================================================= */\\n\\n.container.footer {\\n    /* background-image: url(\\\"../dist/vintage_paper.jpg\\\"); */\\n    background-position: top;\\n    background-size: cover;\\n\\n    display: flex;\\n    justify-content: space-between;\\n    align-items: center;\\n\\n    padding: 0 20px;\\n}\\na {\\n    color: black;\\n    font-size: 12px;\\n    font-weight: 400;\\n    text-decoration: none;\\n}\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://restaurant2/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://restaurant2/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://restaurant2/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -116,7 +126,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\nconsole.log('index.js file has been loaded');\nconsole.log('style.css file has been loaded');\n\n\n//# sourceURL=webpack://restaurant2/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_samosa_platter_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/samosa_platter.jpg */ \"./src/assets/samosa_platter.jpg\");\n\n\n\nconst mainNode = document.querySelector('.container.main');\nmainNode.style.backgroundImage = \"url('\" + _assets_samosa_platter_jpg__WEBPACK_IMPORTED_MODULE_1__ + \"')\";\nconsole.log(_assets_samosa_platter_jpg__WEBPACK_IMPORTED_MODULE_1__);\nconsole.log(_assets_samosa_platter_jpg__WEBPACK_IMPORTED_MODULE_1__.src);\n\n\n// DEBUG\nconsole.log('index.js file has been loaded');\nconsole.log('style.css file has been loaded');\n\n//# sourceURL=webpack://restaurant2/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/samosa_platter.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/samosa_platter.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"samosa_platter.jpg\";\n\n//# sourceURL=webpack://restaurant2/./src/assets/samosa_platter.jpg?");
 
 /***/ })
 
@@ -146,6 +166,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -171,6 +194,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +220,52 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"bundle": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
