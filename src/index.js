@@ -1,6 +1,6 @@
 import './style.css';
 import getHomeContent from './home.js';
-// import getMenuContent from './menu.js';
+import getMenuContent from './menu.js';
 // import getContactContent from './contact.js';
 
 
@@ -42,7 +42,7 @@ function addContent(tab) {
 
 
 tabs.home.content = getHomeContent();
-// tabs.menu.content = getMenuContent();
+tabs.menu.content = getMenuContent();
 // tabs.contact.content = getContactContent();
 
 
